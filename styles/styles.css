@@ -35,7 +35,7 @@ main {
   padding: 20px;
 }
 
-#image {
+#profile-image {
   max-width: 200px;
 }
 
@@ -43,7 +43,7 @@ h1 {
   font-family: 'Oswald', sans-serif;
 }
 
-#hobbies {
+.hobbies {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   text-transform: capitalize;
