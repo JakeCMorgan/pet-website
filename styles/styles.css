@@ -38,23 +38,39 @@ main {
 #profile-image {
   max-width: 200px;
   float: left;
-  padding-right: 35px;;
+  padding-right: 35px;
+}
+
+#kibble-image {
+  max-width: 300px;
+  min-width: 200px;
+  float: right;
+}
+
+#food {
+  padding-top: 30px;
 }
 
 h1 {
   font-family: 'Oswald', sans-serif;
 }
 
-.hobbies {
+.section {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
   text-transform: capitalize;
-  font-size: 1.25em;
+  font-size: 1.5rem;
   margin: 10px;
 }
 
 li {
   font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -66,5 +82,5 @@ li {
 }
 
 @media screen and (max-width: 768px) and (min-width: 600px) {
-  
+
 }
