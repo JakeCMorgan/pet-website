@@ -37,6 +37,8 @@ main {
 
 #profile-image {
   max-width: 200px;
+  float: left;
+  padding-right: 35px;;
 }
 
 h1 {
@@ -53,4 +55,16 @@ h1 {
 
 li {
   font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .column {
+    width: 300px;
+    float: left;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  
 }
