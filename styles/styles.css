@@ -47,6 +47,12 @@ main {
   float: right;
 }
 
+#toy-image {
+  max-width: 300px;
+  float: left;
+  padding-right: 35px;
+}
+
 #food {
   padding-top: 30px;
 }
@@ -70,7 +76,7 @@ li {
 
 p {
   font-family: 'Oswald', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
